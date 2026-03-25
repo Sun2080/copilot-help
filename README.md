@@ -18,6 +18,8 @@
 - [.github/prompts/rollback-plan.prompt.md](.github/prompts/rollback-plan.prompt.md)
 - [.github/prompts/architecture-review.prompt.md](.github/prompts/architecture-review.prompt.md)
 - [.github/prompts/migration-plan.prompt.md](.github/prompts/migration-plan.prompt.md)
+- [.github/prompts/standup-update.prompt.md](.github/prompts/standup-update.prompt.md)
+- [.github/prompts/retrospective.prompt.md](.github/prompts/retrospective.prompt.md)
 - [.github/prompts/test-generation.prompt.md](.github/prompts/test-generation.prompt.md)
 - [.github/prompts/task-breakdown.prompt.md](.github/prompts/task-breakdown.prompt.md)
 - [.github/agents/reviewer.agent.md](.github/agents/reviewer.agent.md)
@@ -25,7 +27,9 @@
 - [.github/agents/doc-writer.agent.md](.github/agents/doc-writer.agent.md)
 - [.github/agents/release-checker.agent.md](.github/agents/release-checker.agent.md)
 - [.github/skills/feature-delivery/SKILL.md](.github/skills/feature-delivery/SKILL.md)
+- [.github/skills/release-workflow/SKILL.md](.github/skills/release-workflow/SKILL.md)
 - [docs/guides/如何在-VS-Code-中使用这些-Copilot-模板.md](docs/guides/如何在-VS-Code-中使用这些-Copilot-模板.md)
+- [docs/guides/如何把这套-Copilot-模板接入真实项目.md](docs/guides/如何把这套-Copilot-模板接入真实项目.md)
 
 ## 这份教程覆盖什么
 
@@ -82,6 +86,8 @@
 - `rollback-plan`：生成回滚策略和风险提示
 - `architecture-review`：从架构视角检查设计合理性和边界
 - `migration-plan`：生成迁移计划、影响范围和验证步骤
+- `standup-update`：生成日报或站会更新
+- `retrospective`：生成复盘总结、问题清单和改进项
 - `test-generation`：补测试和验证范围
 - `task-breakdown`：把大任务拆成多个可执行步骤
 
@@ -101,10 +107,12 @@
 ### Skills
 
 - `feature-delivery`：把“分析需求 -> 规划 -> 执行 -> 验证 -> 交付说明”串成一个完整工作流
+- `release-workflow`：把“发布检查 -> 发布说明 -> 风险评估 -> 回滚准备”串成一个完整工作流
 
 ## 使用说明
 
 - [如何在 VS Code 中使用这些 Copilot 模板](docs/guides/如何在-VS-Code-中使用这些-Copilot-模板.md)
+- [如何把这套 Copilot 模板接入真实项目](docs/guides/如何把这套-Copilot-模板接入真实项目.md)
 
 ## GitHub 仓库
 
