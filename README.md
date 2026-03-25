@@ -6,9 +6,16 @@
 
 - [docs/VSCode-GitHub-Copilot-大型项目使用教程.md](docs/VSCode-GitHub-Copilot-大型项目使用教程.md)
 - [.github/copilot-instructions.md](.github/copilot-instructions.md)
+- [.github/instructions/docs.instructions.md](.github/instructions/docs.instructions.md)
+- [.github/instructions/customization.instructions.md](.github/instructions/customization.instructions.md)
 - [.github/prompts/feature-plan.prompt.md](.github/prompts/feature-plan.prompt.md)
 - [.github/prompts/code-review.prompt.md](.github/prompts/code-review.prompt.md)
 - [.github/prompts/bugfix.prompt.md](.github/prompts/bugfix.prompt.md)
+- [.github/prompts/pr-description.prompt.md](.github/prompts/pr-description.prompt.md)
+- [.github/prompts/test-generation.prompt.md](.github/prompts/test-generation.prompt.md)
+- [.github/prompts/task-breakdown.prompt.md](.github/prompts/task-breakdown.prompt.md)
+- [.github/agents/reviewer.agent.md](.github/agents/reviewer.agent.md)
+- [.github/agents/planner.agent.md](.github/agents/planner.agent.md)
 
 ## 这份教程覆盖什么
 
@@ -38,7 +45,9 @@
 - README.md：仓库入口与导航
 - docs/：教程和长期文档
 - .github/copilot-instructions.md：项目级 Copilot 约束
+- .github/instructions/：文件级或主题级规则
 - .github/prompts/：高频提示模板
+- .github/agents/：可复用的定制 Agent
 
 ## 仓库定位
 
@@ -48,6 +57,28 @@
 - Prompt 模板集合
 - 团队规范骨架
 - Agent/Skill/MCP 的落地样例
+
+## 当前已内置的 Copilot 资产
+
+### Prompts
+
+- `feature-plan`：为大型功能生成实施计划
+- `code-review`：从审查视角检查改动
+- `bugfix`：定位根因并做最小修复
+- `pr-description`：生成 PR 描述
+- `test-generation`：补测试和验证范围
+- `task-breakdown`：把大任务拆成多个可执行步骤
+
+### Instructions
+
+- `copilot-instructions`：仓库级总规则
+- `docs.instructions`：文档类内容的写法和质量要求
+- `customization.instructions`：定制 Copilot 文件时的写法和落点要求
+
+### Agents
+
+- `reviewer`：聚焦问题清单、风险和测试缺口
+- `planner`：聚焦任务拆解、模块影响和验证路径
 
 ## GitHub 仓库
 
