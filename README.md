@@ -2,6 +2,24 @@
 
 这是一个面向 VS Code GitHub Copilot 的中文实践仓库，重点不是单独介绍某个按钮，而是说明如何把 Copilot 用到中大型项目开发中。
 
+## 快速开始
+
+如果你第一次进入这个仓库，建议按下面顺序开始：
+
+1. 先看 [docs/当前版本-v1-说明.md](docs/当前版本-v1-说明.md)
+2. 再看 [docs/guides/如何在-VS-Code-中使用这些-Copilot-模板.md](docs/guides/如何在-VS-Code-中使用这些-Copilot-模板.md)
+3. 如果要接入真实项目，接着看 [docs/guides/如何把这套-Copilot-模板接入真实项目.md](docs/guides/如何把这套-Copilot-模板接入真实项目.md)
+4. 如果你只想先试最小组合，优先使用：`feature-plan`、`code-review`、`bugfix`、`pr-description`、`planner`
+
+## 前置条件
+
+使用这套模板前，默认你具备：
+
+- 较新的 VS Code 版本
+- 已启用 GitHub Copilot Chat / Agents 相关能力
+- 工作区已信任
+- 了解 `.github/` 下的 prompts、agents、skills、instructions 会被 VS Code 用作 Copilot 自定义资产
+
 ## 当前版本
 
 当前建议将这个仓库视为 `v1`。
@@ -11,6 +29,7 @@
 - 版本状态：`v1` 可用
 - 当前重点：教程、模板、Agents、Skills、落地指南
 - 下一阶段目标：在真实项目里试跑并基于反馈迭代
+- 正式发布：`v1.0.0`
 
 ## 仓库内容
 
@@ -125,6 +144,12 @@
 - [如何在 VS Code 中使用这些 Copilot 模板](docs/guides/如何在-VS-Code-中使用这些-Copilot-模板.md)
 - [如何把这套 Copilot 模板接入真实项目](docs/guides/如何把这套-Copilot-模板接入真实项目.md)
 
+## 版本与发布
+
+- [CHANGELOG.md](CHANGELOG.md)
+- [docs/releases/v1.0.0.md](docs/releases/v1.0.0.md)
+- 当前正式版本：`v1.0.0`
+
 ## 当前版本建议
 
 如果你现在要使用这个仓库，不建议继续无目标扩展，而建议：
@@ -133,6 +158,11 @@
 2. 选一个真实项目试接入
 3. 只挑 3 到 5 个高频 prompts 开始使用
 4. 根据实际使用反馈再继续增补模板
+
+## 许可证与贡献
+
+- [LICENSE](LICENSE)
+- [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## GitHub 仓库
 
