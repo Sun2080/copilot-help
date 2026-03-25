@@ -4,7 +4,11 @@
 
 ## 仓库内容
 
-- [VSCode-GitHub-Copilot-大型项目使用教程.md](VSCode-GitHub-Copilot-大型项目使用教程.md)
+- [docs/VSCode-GitHub-Copilot-大型项目使用教程.md](docs/VSCode-GitHub-Copilot-大型项目使用教程.md)
+- [.github/copilot-instructions.md](.github/copilot-instructions.md)
+- [.github/prompts/feature-plan.prompt.md](.github/prompts/feature-plan.prompt.md)
+- [.github/prompts/code-review.prompt.md](.github/prompts/code-review.prompt.md)
+- [.github/prompts/bugfix.prompt.md](.github/prompts/bugfix.prompt.md)
 
 ## 这份教程覆盖什么
 
@@ -28,6 +32,13 @@
 2. 再看模式选择、30 分钟上手路线
 3. 接着看大型项目工作流和 Agent 执行 SOP
 4. 最后按自己的项目情况复用提示词模板
+
+## 推荐仓库结构
+
+- README.md：仓库入口与导航
+- docs/：教程和长期文档
+- .github/copilot-instructions.md：项目级 Copilot 约束
+- .github/prompts/：高频提示模板
 
 ## 仓库定位
 
