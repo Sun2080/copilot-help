@@ -12,10 +12,16 @@
 - [.github/prompts/code-review.prompt.md](.github/prompts/code-review.prompt.md)
 - [.github/prompts/bugfix.prompt.md](.github/prompts/bugfix.prompt.md)
 - [.github/prompts/pr-description.prompt.md](.github/prompts/pr-description.prompt.md)
+- [.github/prompts/requirement-review.prompt.md](.github/prompts/requirement-review.prompt.md)
+- [.github/prompts/api-design.prompt.md](.github/prompts/api-design.prompt.md)
+- [.github/prompts/release-notes.prompt.md](.github/prompts/release-notes.prompt.md)
+- [.github/prompts/rollback-plan.prompt.md](.github/prompts/rollback-plan.prompt.md)
 - [.github/prompts/test-generation.prompt.md](.github/prompts/test-generation.prompt.md)
 - [.github/prompts/task-breakdown.prompt.md](.github/prompts/task-breakdown.prompt.md)
 - [.github/agents/reviewer.agent.md](.github/agents/reviewer.agent.md)
 - [.github/agents/planner.agent.md](.github/agents/planner.agent.md)
+- [.github/agents/doc-writer.agent.md](.github/agents/doc-writer.agent.md)
+- [.github/agents/release-checker.agent.md](.github/agents/release-checker.agent.md)
 
 ## 这份教程覆盖什么
 
@@ -66,6 +72,10 @@
 - `code-review`：从审查视角检查改动
 - `bugfix`：定位根因并做最小修复
 - `pr-description`：生成 PR 描述
+- `requirement-review`：评审需求完整性、边界和风险
+- `api-design`：设计接口契约、输入输出和约束
+- `release-notes`：整理发布说明和变更摘要
+- `rollback-plan`：生成回滚策略和风险提示
 - `test-generation`：补测试和验证范围
 - `task-breakdown`：把大任务拆成多个可执行步骤
 
@@ -79,6 +89,8 @@
 
 - `reviewer`：聚焦问题清单、风险和测试缺口
 - `planner`：聚焦任务拆解、模块影响和验证路径
+- `doc-writer`：聚焦文档整理、教程和交付说明
+- `release-checker`：聚焦发布前检查、风险和回滚准备
 
 ## GitHub 仓库
 
