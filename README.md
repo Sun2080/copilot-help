@@ -2,8 +2,19 @@
 
 这是一个面向 VS Code GitHub Copilot 的中文实践仓库，重点不是单独介绍某个按钮，而是说明如何把 Copilot 用到中大型项目开发中。
 
+## 当前版本
+
+当前建议将这个仓库视为 `v1`。
+
+这一版的定位不是继续无限扩文件，而是先形成一套可用的中文 Copilot 实战模板库，然后进入真实项目验证阶段。
+
+- 版本状态：`v1` 可用
+- 当前重点：教程、模板、Agents、Skills、落地指南
+- 下一阶段目标：在真实项目里试跑并基于反馈迭代
+
 ## 仓库内容
 
+- [docs/当前版本-v1-说明.md](docs/当前版本-v1-说明.md)
 - [docs/VSCode-GitHub-Copilot-大型项目使用教程.md](docs/VSCode-GitHub-Copilot-大型项目使用教程.md)
 - [.github/copilot-instructions.md](.github/copilot-instructions.md)
 - [.github/instructions/docs.instructions.md](.github/instructions/docs.instructions.md)
@@ -113,6 +124,15 @@
 
 - [如何在 VS Code 中使用这些 Copilot 模板](docs/guides/如何在-VS-Code-中使用这些-Copilot-模板.md)
 - [如何把这套 Copilot 模板接入真实项目](docs/guides/如何把这套-Copilot-模板接入真实项目.md)
+
+## 当前版本建议
+
+如果你现在要使用这个仓库，不建议继续无目标扩展，而建议：
+
+1. 先把当前版本作为 `v1` 冻结
+2. 选一个真实项目试接入
+3. 只挑 3 到 5 个高频 prompts 开始使用
+4. 根据实际使用反馈再继续增补模板
 
 ## GitHub 仓库
 
